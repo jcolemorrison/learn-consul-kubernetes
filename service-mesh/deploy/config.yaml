@@ -5,6 +5,7 @@ global:
   metrics:
     enabled: true
     enableAgentMetrics: true
+  imageEnvoy: envoyproxy/envoy:v1.16.4
 server:
   replicas: 1
 ui:
